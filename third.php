@@ -15,7 +15,7 @@ $age = [
 ];
 
 print_r($age);
-*/
+
 $coordinates = [
   [12,34],
   [24,48],
@@ -24,5 +24,24 @@ $coordinates = [
 
 print '<br>';
 print_r($coordinates);
+print '<br>';
+print $coordinates[0][0].'<br>'.$coordinates[0][1].'<br>';
+*/
+
+$a = 5;
+$b = 3;
+if ($a > $b){
+  print $a.' is greater than '.$b;
+} else{
+  print $b.' is greater than or equal to '.$a;
+}
+print '<br>';
+if ($a > $b){
+  print $a.' is greater than '.$b;
+} elseif ($a < $b){
+  print $b.' is greater than '.$a;
+} else {
+  print $a.' is equal to '.$b;
+}
 
 ?>
