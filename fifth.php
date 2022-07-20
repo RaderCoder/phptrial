@@ -1,5 +1,5 @@
 <?php
-
+/*
 $fruits = ["Mango","Apple","Orange","Grape"];
 
 print count($fruits);
@@ -37,5 +37,29 @@ print '<br>';
 $numbers = range(1,20);
 print_r($numbers);
 print '<br>';
+*/
+
+$msg = "Hello";
+
+print strlen($msg);
+print '<br>';
+
+print strpos($msg,"l");
+print '<br>';
+print strrpos($msg,"l");
+print '<br>';
+
+print strtoupper($msg);
+print '<br>';
+print strtolower($msg);
+print '<br>';
+
+print str_replace('lo','p',$msg);
+print '<br>';
+
+print substr($msg,0,4);
+print '<br>';
+print substr($msg,3);
+print '<br>'
 
 ?>
